@@ -22,10 +22,17 @@ const Entities = props => {
 	// CRUD operations
 	const fetchData = async () => {
 		setLoading(true)
-		const results = await axios.get('/.netlify/functions/list?site=' + props.currentSite.id)
-		console.log(results.data)
-		setEntities(results.data)
-		setLoading(false)
+		try {
+			const results = await axios.get('/.netlify/functions/list?site=' + props.currentSite.id)
+			console.log(results.data)
+			setEntities(results.data)
+			setLoading(false)
+		}catch (e) {
+			if (e) {
+				console.error(e)
+				setLoading(false)
+			}
+		}
 	}
 
 	const addEntity = entity => {

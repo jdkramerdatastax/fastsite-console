@@ -24,10 +24,17 @@ const Sites = () => {
 	// CRUD operations
 	const fetchData = async () => {
 		setLoading(true)
-		const results = await axios.get('/.netlify/functions/list')
-		console.log(results.data)
-		setUsers(results.data)
-		setLoading(false)
+		try {
+			const results = await axios.get('/.netlify/functions/list')
+			console.log(results.data)
+			setUsers(results.data)
+			setLoading(false)
+		}catch (e) {
+			if (e) {
+				console.error(e)
+				setLoading(false)
+			}
+		}
 	}
 
 	const addUser = user => {
