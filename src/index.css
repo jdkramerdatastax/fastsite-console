@@ -1,0 +1,12 @@
+button,
+.button {
+	margin-right: .5rem;
+}
+
+.right-align {
+	text-align: right;
+}
+
+.text-box {
+	width: 300px;
+}
