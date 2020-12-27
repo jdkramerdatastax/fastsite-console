@@ -1,0 +1,42 @@
+[
+    {
+       "category":"Self-help",
+       "description":"The 7 Habits of Highly Effective People, first published in 1989, is a business and self-help book written by Stephen Covey. Powerful Lessons in Personal Change.",
+       "id":"7-habits",
+       "image":"https://images.ctfassets.net/wd6tflchr19j/ZRaeZn9wsJ0Ry0jLlbh1g/bf6780adbaeec60d3fd02555516ce279/7_habits.jpg",
+       "subtitle":"Author: Stephen Covey",
+       "title":"The 7 Habits Of Highly Effective"
+    },
+    {
+       "category":"Programming",
+       "description":"Fully Revised and Updated. Includes New Refactorings and Code Examples. Any fool can write code that a computer can understand. Good programmers write code that humans can understand.",
+       "id":"refactoring",
+       "image":"https://images.ctfassets.net/wd6tflchr19j/3nzTEupTp6WhrLpvtLQJc4/e7a795c1e0453c955a7c3c7d47545678/415rwKnmemL.jpg",
+       "subtitle":"Author: Kent Beck",
+       "title":"Refactoring"
+    },
+    {
+       "category":"Self-help",
+       "description":"Drive: The Surprising Truth About What Motivates Us is the fourth non-fiction book by Daniel Pink. The book was published in 2009 by Riverhead Hardcover. It argues that human motivation is largely intrinsic, and that the aspects of this motivation can be divided into autonomy, mastery, and purpose.",
+       "id":"drive",
+       "image":"https://images.ctfassets.net/wd6tflchr19j/63OkT8lOdNKtCab11PWxWp/b7aa42542356ca2c2ed65d8f57fedc5f/drive.jpg",
+       "subtitle":"Author: Daniel H. Pink",
+       "title":"Drive"
+    },
+    {
+       "category":"Programming",
+       "description":"Even bad code can function. But if code isn't clean, it can bring a development organization to its knees. Every year, countless hours and significant resources are lost because of poorly written code.",
+       "id":"clean-code",
+       "image":"https://images.ctfassets.net/wd6tflchr19j/K5oDTPrgrFXq03JJTEMWt/e578407605a4466417003d97ec96372d/41SH-SvWPxL.jpg",
+       "subtitle":"Author: Robert Cecil Martin",
+       "title":"Clean Code"
+    },
+    {
+       "category":"Business",
+       "description":"The Innovator's Dilemma: When New Technologies Cause Great Firms to Fail, generally referred to as The Innovator's Dilemma, first published in 1997, is the best-known work of the Harvard professor and businessman Clayton Christensen.",
+       "id":"innovator",
+       "image":"https://images.ctfassets.net/wd6tflchr19j/5PnDXGWCvVQW1MSxgqZ4AE/bed2d510d45f63d2449bc0d0ad37b247/dilemma.jpg",
+       "subtitle":"Author: Clayton Christensen",
+       "title":"The Innovator's Dilemma"
+    }
+ ]

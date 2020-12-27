@@ -13,6 +13,7 @@ const Entities = props => {
 	const [ entities, setEntities ] = useState([])
 	const [ currentEntity, setCurrentEntity ] = useState(initialFormState)
 	const [ editing, setEditing ] = useState(false)
+	const [ loading, setLoading ] = useState(false)
 
 	useEffect(() => {
 		fetchData()
@@ -20,43 +21,51 @@ const Entities = props => {
 
 	// CRUD operations
 	const fetchData = async () => {
+		setLoading(true)
 		const results = await axios.get('/.netlify/functions/list?site=' + props.currentSite.id)
 		console.log(results.data)
 		setEntities(results.data)
+		setLoading(false)
 	}
 
 	const addEntity = entity => {
-	
+		setLoading(true)
 		axios.post('/.netlify/functions/add?site=' + props.currentSite.id, entity)
 		.then((response) => {
 			console.log(response)
 			setEntities([ ...entities, entity ])
+			setLoading(false)
 		})
 		.catch((err) => {
 			console.error(err)
+			setLoading(false)
 		})		
 	}
 
 	const deleteEntity = id => {
-
+		setLoading(true)
 		axios.post('/.netlify/functions/delete?site=' + props.currentSite.id, {id : id})
 		.then((response) => {
 			setEntities(entities.filter(entity => entity.id !== id))
+			setLoading(false)
 		})
 		.catch((err) => {
 			console.error(err)
+			setLoading(false)
 		})	
 	}
 
 	const updateEntity = (id, updatedEntity) => {
-
+		setLoading(true)
 		axios.post('/.netlify/functions/add?site=' + props.currentSite.id, updatedEntity)
 		.then((response) => {
 			setEditing(false)
 			setEntities(entities.map(entity => (entity.id === id ? updatedEntity : entity)))
+			setLoading(false)
 		})
 		.catch((err) => {
 			console.error(err)
+			setLoading(false)
 		})	
 	}
 
@@ -67,6 +76,7 @@ const Entities = props => {
 
 	return (
         <div className="flex-row">
+			<div className={loading ? "loading" : ""}></div>
             <div className="flex-large">
                 <button onClick={() => props.setViewing(false)} className="button muted-button">
                     Back

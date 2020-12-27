@@ -1,0 +1,42 @@
+[
+   {
+      "category":"Desserts",
+      "description":"Cooking Directions: \n\n- Preheat the grill to medium heat.\n- Brush pineapple slices with melted butter and grill until softened, about 4 to 5 minutes.\n- Serve with ice cream and caramel topping on top of Cream Cheese Shortcakes.\n- Garnish with fresh mint, if desired.\n- Preheat the oven to 375 degrees F. Line a baking sheet with parchment paper.\n- In a large bowl, combine the flour, sugar, baking powder, and salt.\n- Using a food processor or pastry cutter, cut in the butter until the mixture is crumbly.\n- Add the cream cheese, stirring to combine, then add the heavy cream, stirring just until the dry ingredients are moistened.\n- On a lightly floured surface, roll out the dough to 3/4-inch thickness.\n- Cut the dough with a 2 1/2-inch round cutter, rerolling as necessary.\n- Arrange the shortcakes on the prepared baking sheet and bake until lightly browned, about 13 to 15 minutes.\n- Remove from the oven and cool completely before serving.\n\nYield: 10 shortcakes\nPrep Time: 20 minutes\nCook Time: 13 to 15 minutes\nEase of preparation: easy",
+      "id":"pineapple-sundaes",
+      "image":"https://www.fromcalculustocupcakes.com/wp-content/uploads/2014/08/Grilled-Pineapple-Sundaes-3.jpg",
+      "subtitle":"Pineapple, Butter, Vanilla ice cream, Caramel",
+      "title":"Grilled Pineapple Sundaes"
+   },
+   {
+      "category":"Desserts",
+      "description":"Cooking Directions: \n\n- Crumble the khoya thoroughly or mash it well by hand.\n- Ensure there are no lumps or pieces in the khoya.\n- Take a mixing bowl and add the crumbled khoya.\n- To this add maida and cooking soda and mix well.\n- Add very little water or just sprinkle water to form a smooth and soft dough.\n- No need to knead the dough.\n- Just gather them together to form a dough.\n- Cover the dough aside for 15-20 minutes.",
+      "id":"gulab-jamun",
+      "image":"https://i2.wp.com/www.vegrecipesofindia.com/wp-content/uploads/2014/08/gulab-jamun-recipe-2-1.jpg",
+      "subtitle":"Flour, Cooking soda, Sugar, Water, Saffron, Cardamom",
+      "title":"Gulab Jamun"
+   },
+   {
+      "category":"Main Course",
+      "description":"Cooking Directions: \n\n- Heat olive oil in large saucepan over medium heat.\n- Add onion, curry paste, soy sauce, and garlic, and saute 1 to 2 minutes, or until fragrant.\n- Add lemongrass, ginger, kaffir lime leaves, and Thai chile.\n- Saute 30 seconds, or until combined.\n- Stir in carrots, zucchini, and potato, and saute 1 minute to coat with curry.\n- Add coconut milk, brown sugar, and 1 cup water.\n- Reduce heat to medium-low, cover, and simmer 5 to 10 minutes, or until potatoes can be pierced with tip of knife.\n- Add green beans and simmer 5 minutes more, or until green beans are crisp-tender.\n- Remove lemongrass, ginger, and kaffir lime leaves, and season with salt and pepper.\n- Sprinkle with basil leaves just before serving.",
+      "id":"red-curry",
+      "image":"https://www.fromachefskitchen.com/wp-content/uploads/2018/11/Thai-Red-Curry-with-Cauliflower-and-Potatoes.jpg",
+      "subtitle":"Olive oil, Yellow onion, Red curry, Soy sauce, Clove garlic, Stalk",
+      "title":"Thai Red Curry"
+   },
+   {
+      "category":"Salad",
+      "description":"Cooking Directions: \n\n- Brown ground beef, drain and cool to room temperature.\n- Rinse and drain kidney beans; chop lettuce and tomatoes and crush chips.\n- Mix together-add dressing just before serving.",
+      "id":"taco-salad",
+      "image":"https://iwashyoudry.com/wp-content/uploads/2020/06/Simple-Taco-Salad-Recipe-4.jpg",
+      "subtitle":"Red kidney, Shredded lettuce, Tomatoes, Grated cheese, Tortilla chips",
+      "title":"Taco Salad"
+   },
+   {
+      "category":"Salad",
+      "description":"Cooking Directions: \n\n- Cut broccoli into pieces, (I use most of the broccoli, even some of the stem), add chopped red onion and bacon.\n- In a small bowl, mix together mayo, brown sugar and lemon juice, refrigerate for a couple of hours for better flavour.\n- Just before serving add dressing to broccoli, onion and bacon, top with cheddar cheese.\n- (It is best to add the dressing just before serving to keep the broccoli and bacon crispy) Enjoy.",
+      "id":"broccoli-salad",
+      "image":"https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/6/13/3/YW0302H_broccoli-salad-recipe_s4x3.jpg.rend.hgtvcom.616.462.suffix/1483737205570.jpeg",
+      "subtitle":"Broccoli, Red onion, Bacon, Mayonnaise, Brown sugar",
+      "title":"Broccoli Salad"
+   }
+]
