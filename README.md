@@ -3,20 +3,25 @@ FastSite is a no-code tool to generate content-driven websites. It leverages the
 
 **Stack:** 
 
-| Layer     | Technology            | Provider          |
-| --------- | --------------------- | ----------------- |
-| Front-end | Static website        | Netlify           |
-| Back-end  | Serverless Functions  | Netlify-functions |
-| Database  | Cloud-native NoSQL DB | DataStax Astra    |
+| Layer     | Technology                   | Provider        |
+| --------- | ---------------------------- | --------------- |
+| Front-end | SPA/ SPA-SSR/ Static website | Netlify/ Vercel |
+| Back-end  | Serverless Functions         | Netlify/ Vercel |
+| Database  | Cloud-native NoSQL DB        | DataStax Astra  |
 
 **Architecture**: 
 
 FastSite consists of two sub-systems: 
 
-1. FastSite-Console  (This project) - [Code](https://github.com/mtalwadiya/fastsite-console) - [Demo](https://fastsite-console.netlify.app/)
-2. FastSite-Sites  - [Code](https://github.com/mtalwadiya/fastsite-sites) - [Demo](https://fastsite-sites.netlify.app/books)
+1. FastSite-Console - [Code](https://github.com/mtalwadiya/fastsite-console) - [Demo](https://fastsite-console.netlify.app/)  -  (This project) 
+2. FastSite-Sites - There are 3 variants: 
+   1. SPA (Client-side rendering)  - [Code](https://github.com/mtalwadiya/fastsite-sites) - [Demo](https://fastsite-sites.netlify.app/books)  
+   2. SPA-SSR (Server-side rendering) - [Code](https://github.com/mtalwadiya/fastsite-sites-ssr/tree/master) - [Demo](https://fastsite-sites.vercel.app/)  
+   3. Static website (Static build-time rendering) - [Code](https://github.com/mtalwadiya/fastsite-sites-ssr/tree/static) - [Demo](https://fastsite-sites-5pn643pvq.vercel.app/)  
 
 ![](https://drive.google.com/uc?id=1UgJPvB2SD_6jbL8sOUFoasRvfhv0sNuI)
+
+
 
 # How to setup 
 
