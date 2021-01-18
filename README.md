@@ -74,4 +74,11 @@ npm run build
 netlify deploy -p 
 ```
 
+# Demo 
+
+https://fastsite-console.netlify.app/
+
+username - admin
+password - astra 
+
  
