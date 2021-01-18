@@ -78,7 +78,7 @@ netlify deploy -p
 
 https://fastsite-console.netlify.app/
 
-username - admin
-password - astra 
+- username - admin 
+- password - astra 
 
  
