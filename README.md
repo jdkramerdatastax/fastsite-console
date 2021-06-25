@@ -1,7 +1,14 @@
-# FastSite - Console
-FastSite is a no-code tool to generate content-driven websites. It leverages the power of modern JAMStack and cloud-native technologies. 
+<!--- STARTEXCLUDE --->
+# FastSite
+*60m, advanced, [Start Building](https://github.com/DataStax-Examples/fastsite-console)*
 
-**Stack:** 
+FastSite is a no-code tool to generate content-driven websites. It leverages the power of modern JAMStack and cloud-native technologies. 
+<!--- ENDEXCLUDE --->
+
+![fastsite](https://img.youtube.com/vi/3Pw0-7XqjC8/0.jpg)
+
+  
+## How this works
 
 | Layer     | Technology                   | Provider        |
 | --------- | ---------------------------- | --------------- |
@@ -9,29 +16,66 @@ FastSite is a no-code tool to generate content-driven websites. It leverages the
 | Back-end  | Serverless Functions         | Netlify/ Vercel |
 | Database  | Cloud-native NoSQL DB        | DataStax Astra  |
 
-**Architecture**: 
 
-FastSite consists of two sub-systems: 
+## Get Started
+To build and play with this app, follow the build instructions that are located here: [https://github.com/DataStax-Examples/fastsite-console](https://github.com/DataStax-Examples/fastsite-console)
 
-1. FastSite-Console - [Code](https://github.com/mtalwadiya/fastsite-console) - [Demo](https://fastsite-console.netlify.app/)  -  (This project) 
-2. FastSite-Sites - There are 3 variants: 
-   1. SPA (Client-side rendering)  - [Code](https://github.com/mtalwadiya/fastsite-sites) - [Demo](https://fastsite-sites.netlify.app/books)  
-   2. SPA-SSR (Server-side rendering) - [Code](https://github.com/mtalwadiya/fastsite-sites-ssr/tree/master) - [Demo](https://fastsite-sites.vercel.app/)  
-   3. Static website (Static build-time rendering) - [Code](https://github.com/mtalwadiya/fastsite-sites-ssr/tree/static) - [Demo](https://fastsite-sites-5pn643pvq.vercel.app/)  
+<!--- STARTEXCLUDE --->
+# Running FastSite
+Follow the instructions below to get started.
 
-![](https://drive.google.com/uc?id=1UgJPvB2SD_6jbL8sOUFoasRvfhv0sNuI)
+## Prerequisites
+Let's do some initial setup by creating a serverless(!) database.
+
+### DataStax Astra
+1. Create a [DataStax Astra account](https://astra.datastax.com/register?utm_source=github&utm_medium=referral&utm_campaign=FastSite) if you don't already have one:
+![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-register-basic-auth.png)
+
+2. On the home page. Locate the button **`Create Database`**
+![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-dashboard.png)
+
+3. Locate the **`Get Started`** button to continue
+![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-select-plan.png)
+
+4. Define a **database name**, **keyspace name** and select a database **region**, then click **create database**.
+![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-create-db.png)
+
+5. Your Astra DB will be ready when the status will change from *`Pending`* to **`Active`** 💥💥💥 
+![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-db-active.png)
+
+6. After your database is provisioned, we need to generate an Application Token for our App. Go to the `Settings` tab in the database home screen.
+![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-db-settings.png)
+
+7. Select `Admin User` for the role for this Sample App and then generate the token. Download the CSV so that we can use the credentials we need later.
+![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-db-settings-token.png)
+
+8. After you have your Application Token, head to the database connect screen and copy the connection information that we'll need later. We'll replace `ASTRA_DB_APPLICATION_TOKEN` with the `Token` value that is part of your Application Token.
+![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-db-connect.png)
 
 
+### Github
+1. Click `Use this template` at the top of the [GitHub Repository](https://github.com/DataStax-Examples/fastsite-console):
+![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/github-use-template.png)
 
-# How to setup 
+2. Enter a repository name and click 'Create repository from template':
+![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/github-create-repository.png)
 
-To get the project running, clone this repository and follow these steps:
+3. Clone the repository:
+![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/github-clone.png)
 
-- Install Netlify CLI:
+<!--- 
+Include locally as a minimum so that folks will
+create an Astra DB and use your repository as a template.
 
-```
-npm install netlify-cli -g
-```
+Remove paths that you don't need.
+--->
+## 🚀 Getting Started Paths:
+*Make sure you've completed the [prerequisites](#prerequisites) before starting this step*
+  - [Running on your local machine](#running-on-your-local-machine)
+  - [Running on Gitpod](#running-on-gitpod)
+  - [Deploying to Netlify](#deploying-to-netlify)
+
+### Running on your local machine
 
 - Install all the project's dependencies:
 ```
@@ -74,11 +118,13 @@ npm run build
 netlify deploy -p 
 ```
 
-# Demo 
+### Running on Gitpod
+1. Click the 'Open in Gitpod' link:
+[![Open in IDE](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/DataStax-Examples/fastsite-console)
 
-https://fastsite-console.netlify.app/
 
-- username - admin 
-- password - astra 
+### Deploying to Netlify
+1. Click the 'Deploy to Netlify' button:
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/DataStax-Examples/fastsite-console)
 
- 
+<!--- ENDEXCLUDE --->
