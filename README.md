@@ -7,7 +7,8 @@ FastSite is a no-code tool to generate content-driven websites. It leverages the
 
 ![fastsite](https://img.youtube.com/vi/3Pw0-7XqjC8/0.jpg)
 
-  
+Demo Video: [https://youtu.be/3Pw0-7XqjC8](https://youtu.be/3Pw0-7XqjC8)
+
 ## How this works
 
 | Layer     | Technology                   | Provider        |
