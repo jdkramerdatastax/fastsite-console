@@ -5,7 +5,7 @@
 FastSite is a no-code tool to generate content-driven websites. It leverages the power of modern JAMStack and cloud-native technologies. 
 <!--- ENDEXCLUDE --->
 
-![fastsite](https://img.youtube.com/vi/3Pw0-7XqjC8/0.jpg)
+![fastsite](https://raw.githubusercontent.com/DataStax-Examples/fastsite-console/master/hero.png)
 
 Demo Video: [https://youtu.be/3Pw0-7XqjC8](https://youtu.be/3Pw0-7XqjC8)
 
